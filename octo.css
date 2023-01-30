@@ -1,0 +1,175 @@
+body {
+    margin: 0rem;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: large;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2% 3% 86% 7% 2%;
+}
+
+.box {
+    background-color: #eee;
+    color: #333;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #333;
+}
+
+.flex-box {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+    width: 95%;
+    font-size: large;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.flex-box:hover {
+    background-color: #bbb;
+    text-align: center;  
+    border: 2px dotted blue;
+}
+
+.gameplay {
+    width: 65%;
+}
+.logo {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    background-color: white;
+    padding: 0px;
+}
+
+.image {
+    width: 100%;
+}
+
+.center {
+    margin: auto;
+    padding: 10px;
+    width: 60%;
+    text-align: center;    
+}
+
+
+.dayNight {
+    grid-column: 4 / 6;
+    grid-row: 1;
+    background-color: #333;
+    color: #ddd;
+}
+
+.header {    
+    grid-column: 3;
+    grid-row: 1;
+    background-color: #333;
+    color: #ddd;
+}
+
+.main {
+    grid-column: 2 / 5;
+    grid-row: 2;
+    padding: 1.3rem;
+}
+
+.rainbowLeft {
+    grid-column: 1;
+    grid-row: 2 / 3;
+}
+
+.rainbowRight {
+    grid-column: 5;
+    grid-row: 2 / 3;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:default {
+    text-decoration: none;
+    color: white;    
+}
+
+a:active {
+    text-decoration: none;
+    color: red;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#grad {
+    background-image: linear-gradient(to bottom, red,orange,yellow,green,blue,indigo,violet);
+}
+
+#grad2 {
+    background-image: linear-gradient(to bottom, red,orange,yellow,green,blue,indigo,violet);
+}
+
+.list {
+    background: #aaa;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul > li {
+    color: #333;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+.table1 {
+    padding: 0.2rem;
+    margin: 0.1rem;
+}
+
+td {
+    border: 2px solid black;
+    padding: 0.3rem;
+}
+
+td:hover {
+    border: 2px dotted yellowgreen;
+    background-color: #333;
+    color:#ddd;
+}
+
+thead {
+    font-weight: bold;
+}
+
+.maintank {
+    background-image: linear-gradient(to left, red, orange, yellow, orange, red)
+}
+  
